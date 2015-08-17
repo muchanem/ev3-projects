@@ -1,0 +1,128 @@
+# Info Board Board, Last Edited in v1.0.0
+# ===============================================================================================
+# |                               Max Rows for a board is 15                                    |
+# |                            Max characters for a title is 32                                 |
+# |                             Max characters for a line is 48                                 |
+# |---------------------------------------------------------------------------------------------|
+# |               When using scroll there is no limit for characters per line                   |
+# |=============================================================================================|
+# |=============================================================================================|
+# |                                        Example                                              |
+# |---------------------------------------------------------------------------------------------|
+# |Info Board:                                                                                  |
+# |  '1':                                                                                       |
+# |    Show Time: 10                                           # How Long this page is shown for|
+# |    global:                                        # What world sees this page (global = All)|
+# |      default:                        # What Permissions group sees this page (default = All)|
+# |        Title: '&4&lDuskHaven'                                                               |
+# |         Rows:                                                                               |
+# |         - ' '                                                                               |
+# |         - 'This board is seen by everyone'                                                  |
+# |         - 'That isn''t in Admin'                                                            |
+# |      Admin:                                                                                 |
+# |        Title: '&4&lAdmin Page'                                                              |
+# |        Rows:                                                                                |
+# |        - ' '                                                                                |
+# |        - 'This board is only'                                                               |
+# |        - 'seen by Admins'                                                                   |
+# |  '2':                                                                                       |
+# |    Show Time: 5                                                                             |
+# |    world:                                                                                   |
+# |      default:                                                                               |
+# |        Title: '&a&lStats'                                                                   |
+# |         Rows:                                                                               |
+# |         - 'Online Players: ; <onlineplayers>'      # Splitting a line can be done by using ;|
+# |         - 'Money: ; <balance>'                                                              |
+# |    world_the_nether:                                                                        |
+# |      default:                                                                               |
+# |        Title: '&a&lNether'                                                                  |
+# |         Rows:                                                                               |
+# |         - 'Your Level:'                                                                     |
+# |         - '~!<level>Your Level:'      # Will only display if <level> isn't "0" or "Unknown" |
+# |         - '~!<level><math<level>+<exp>>'                                                    | 
+# ==============================================================================================
+Info Board:
+  '1':
+    Show Time: 1
+    global:
+      default:
+        Title: '&f&lE&e&lggWars'
+        Rows:
+        - ' '
+        - '&l<player>'
+        - ' '
+        - '&a&lJugadores:'
+        - '&7<onlineplayers>'
+        - ' '
+  '2':
+    Show Time: 1
+    global:
+      default:
+        Title: '&e&lE&f&lg&e&lgWars'
+        Rows:
+        - ' '
+        - '&l<player>'
+        - ' '
+        - '&a&lJugadores:'
+        - '&7<onlineplayers>'
+        - ' '
+  '3':
+    Show Time: 1
+    global:
+      default:
+        Title: '&e&lEg&f&lg&e&lWars'
+        Rows:
+        - ' '
+        - '&l<player>'
+        - ' '
+        - '&a&lJugadores:'
+        - '&7<onlineplayers>'
+        - ' '
+  '4':
+    Show Time: 1
+    global:
+      default:
+        Title: '&e&lEgg&f&lW&e&lars'
+        Rows:
+        - ' '
+        - '&l<player>'
+        - ' '
+        - '&a&lJugadores:'
+        - '&7<onlineplayers>'
+        - ' '
+  '5':
+    Show Time: 1
+    global:
+      default:
+        Title: '&e&lEggW&f&la&e&lrs'
+        Rows:
+        - ' '
+        - '&l<player>'
+        - ' '
+        - '&a&lJugadores:'
+        - '&7<onlineplayers>'
+        - ' '
+  '6':
+    Show Time: 1
+    global:
+      default:
+        Title: '&e&lEggWa&f&lr&e&ls'
+        Rows:
+        - ' '
+        - '&l<player>'
+        - ' '
+        - '&a&lJugadores:'
+        - '&7<onlineplayers>'
+        - ' '
+  '7':
+    Show Time: 1
+    global:
+      default:
+        Title: '&e&lEggWar&f&ls'
+        Rows:
+        - ' '
+        - '&l<player>'
+        - ' '
+        - '&a&lJugadores:'
+        - '&7<onlineplayers>'
+        - ' '

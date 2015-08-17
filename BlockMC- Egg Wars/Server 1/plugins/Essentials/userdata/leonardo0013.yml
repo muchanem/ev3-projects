@@ -1,0 +1,23 @@
+uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+timestamps:
+  login: 1439064765844
+  logout: 1439065731199
+  lastteleport: 1439065732143
+ipAddress: 192.168.0.100
+lastlocation:
+  world: LobbyEW
+  x: -0.8844682331307978
+  y: 77.0
+  z: -4.344258707953669
+  yaw: -6.150116
+  pitch: -39.15002
+logoutlocation:
+  world: LobbyEW
+  x: -0.5
+  y: 77.0
+  z: -7.5
+  yaw: -180.2999
+  pitch: -5.550013
+money: '9999999700.0'
+afk: false
+socialspy: false

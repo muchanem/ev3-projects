@@ -1,0 +1,2 @@
+# Sets whether or not to use permissions. If false, everyone has access to anvil coloring.
+Use Permissions: false

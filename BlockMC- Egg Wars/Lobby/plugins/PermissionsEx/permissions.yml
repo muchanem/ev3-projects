@@ -1,0 +1,176 @@
+groups:
+  Aldeano:
+    prefix: '&aAldeano &f'
+    default: true
+    permissions:
+    - essentials.balance
+    - chestcommands.open.EggWars-Shop.yml
+    - chestcommands.open.EggWars-Shop-Arcos.yml
+    - chestcommands.open.EggWars-Shop-Armadura.yml
+    - chestcommands.open.EggWars-Shop-Bloques.yml
+    - chestcommands.open.EggWars-Shop-Comida.yml
+    - chestcommands.open.EggWars-Shop-Espadas.yml
+    - chestcommands.open.EggWars-Shop-Picos.yml
+    - chestcommands.open.EggWars-Shop-Raros.yml
+    - chestcommands.open.Hierro-Mejoras.yml
+    - chestcommands.open.Oro-Mejoras.yml
+    - chestcommands.open.Diamante-Mejoras.yml
+    - chestcommands.command.open
+    - chestcommands.open.filename.yml
+    - -bukkit.command.help
+    - -bukkit.command.pl
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.me
+    - chestcommands.open.compass.yml
+    - essentials.warp
+    - essentials.warps.prelobby
+    - essentials.warps.*
+    - essentials.motd
+    - serversigns.use.*
+    - bw.base
+    - fws.red
+    - fws.green
+    options:
+      build: true
+  Creador:
+    prefix: '&3[&6&k:&1&k:&2&k:&4&lCreador&6&k:&1&k:&2&k:&3]&9&l '
+    default: true
+    permissions:
+    - '*'
+  Rey:
+    prefix: '&a&k:&a&k:&6&lRey&a&k:&a&k: &f'
+    default: false
+    permissions:
+    - chestcommands.open.EggWars-Shop.yml
+    - chestcommands.open.EggWars-Shop-Arcos.yml
+    - chestcommands.open.EggWars-Shop-Armadura.yml
+    - chestcommands.open.EggWars-Shop-Bloques.yml
+    - chestcommands.open.EggWars-Shop-Comida.yml
+    - chestcommands.open.EggWars-Shop-Espadas.yml
+    - chestcommands.open.EggWars-Shop-Picos.yml
+    - chestcommands.open.EggWars-Shop-Raros.yml
+    - chestcommands.open.Hierro-Mejoras.yml
+    - chestcommands.open.Oro-Mejoras.yml
+    - chestcommands.open.Diamante-Mejoras.yml
+    - chestcommands.command.open
+    - chestcommands.open.filename.yml
+    - -bukkit.command.help
+    - -bukkit.command.pl
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.me
+    - serversigns.use.*
+    - fws.red
+    - fws.green
+    options:
+      build: true
+    worlds:
+      'true':
+        permissions:
+        - build
+  Admin:
+    prefix: '&3[&6&k:&1&k:&2&k:&4&lAdmin&6&k:&1&k:&2&k:&3]&9&l'
+    permissions:
+    - '*'
+  Dios:
+    prefix: '&b&k:&b&k:&e&lDios&b&k:&b&k: &f'
+    default: false
+    permissions:
+    - chestcommands.open.EggWars-Shop.yml
+    - chestcommands.open.EggWars-Shop-Arcos.yml
+    - chestcommands.open.EggWars-Shop-Armadura.yml
+    - chestcommands.open.EggWars-Shop-Bloques.yml
+    - chestcommands.open.EggWars-Shop-Comida.yml
+    - chestcommands.open.EggWars-Shop-Espadas.yml
+    - chestcommands.open.EggWars-Shop-Picos.yml
+    - chestcommands.open.EggWars-Shop-Raros.yml
+    - chestcommands.open.Hierro-Mejoras.yml
+    - chestcommands.open.Oro-Mejoras.yml
+    - chestcommands.open.Diamante-Mejoras.yml
+    - chestcommands.command.open
+    - chestcommands.open.filename.yml
+    - group.default
+    - serversigns.use.*
+    - -bukkit.command.help
+    - -bukkit.command.pl
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.me
+    - fws.red
+    - fws.green
+    options:
+      build: true
+    worlds:
+      'true':
+        permissions:
+        - build
+  Heroe:
+    prefix: '&1&k:&1&k:&c&lHeroe&1&k:&1&k: &f'
+    permissions:
+    - chestcommands.open.EggWars-Shop.yml
+    - chestcommands.open.EggWars-Shop-Arcos.yml
+    - chestcommands.open.EggWars-Shop-Armadura.yml
+    - chestcommands.open.EggWars-Shop-Bloques.yml
+    - chestcommands.open.EggWars-Shop-Comida.yml
+    - chestcommands.open.EggWars-Shop-Espadas.yml
+    - chestcommands.open.EggWars-Shop-Picos.yml
+    - chestcommands.open.EggWars-Shop-Raros.yml
+    - chestcommands.open.Hierro-Mejoras.yml
+    - chestcommands.open.Oro-Mejoras.yml
+    - chestcommands.open.Diamante-Mejoras.yml
+    - chestcommands.command.open
+    - chestcommands.open.filename.yml
+    - group.default
+    - serversigns.use.*
+    - -bukkit.command.help
+    - -bukkit.command.pl
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.me
+    - fws.red
+    - fws.green
+    options:
+      build: true
+    worlds:
+      p2f:
+        permissions:
+        - factions
+  Mago:
+    prefix: '&f&k:&f&k:&5&lMago&f&k:&f&k: &f'
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.EggWars-Shop.yml
+    - chestcommands.open.EggWars-Shop-Arcos.yml
+    - chestcommands.open.EggWars-Shop-Armadura.yml
+    - chestcommands.open.EggWars-Shop-Bloques.yml
+    - chestcommands.open.EggWars-Shop-Comida.yml
+    - chestcommands.open.EggWars-Shop-Espadas.yml
+    - chestcommands.open.EggWars-Shop-Picos.yml
+    - chestcommands.open.EggWars-Shop-Raros.yml
+    - chestcommands.open.Hierro-Mejoras.yml
+    - chestcommands.open.Oro-Mejoras.yml
+    - chestcommands.open.Diamante-Mejoras.yml
+    - chestcommands.command.open
+    - chestcommands.open.filename.yml
+    - group.default
+    - serversigns.use.*
+    - -bukkit.command.help
+    - -bukkit.command.pl
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.me
+    - fws.red
+    - fws.green
+    options:
+      rank: '300'
+users:
+  byMassi88LM:
+    group:
+    - Aldeano
+  3ff66df4-3fa8-37ae-ae0d-dfc656a70b39:
+    group:
+    - Aldeano
+    options:
+      name: Leonardo0013

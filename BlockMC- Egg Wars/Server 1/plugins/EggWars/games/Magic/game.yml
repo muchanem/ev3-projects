@@ -1,0 +1,331 @@
+name: Magic
+world: Magic
+loc1:
+  world: Magic
+  x: 4842.787258310959
+  y: 176.60732876006398
+  z: -68.59848853598513
+  pitch: 82.7999496459961
+  yaw: -40.650177001953125
+loc2:
+  world: Magic
+  x: 5085.731248117109
+  y: 8.730234759843793
+  z: 99.51691260015687
+  pitch: 19.35000228881836
+  yaw: 130.64976501464844
+lobby:
+  world: PreLobbyEW
+  x: -3.4360464336250334
+  y: 55.0
+  z: -0.45253130988065093
+  pitch: 90.0
+  yaw: 5.8499979972839355
+minplayers: 1
+record: 3600
+record-holders: []
+regionname: Magic
+time: 1000
+targetmaterial: DRAGON_EGG
+mainlobby:
+  world: LobbyEW
+  x: -0.5793937955177573
+  y: 77.0
+  z: -7.413283789373118
+  pitch: 5.39997673034668
+  yaw: -180.449951171875
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5024.6398394228845
+    y: 59.0
+    z: 52.44654350479513
+    pitch: 89.54999542236328
+    yaw: -351.4501647949219
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5024.664511673163
+    y: 59.0
+    z: 62.578468490381844
+    pitch: 88.79999542236328
+    yaw: -290.4002990722656
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5013.523978156553
+    y: 52.0
+    z: 59.311680959081244
+    pitch: 90.0
+    yaw: -167.10035705566406
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5025.488252408285
+    y: 51.0
+    z: 43.650020075733096
+    pitch: 83.0999755859375
+    yaw: 8.099689483642578
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Magic
+    x: 5031.300000011921
+    y: 60.0
+    z: 57.623665495923696
+    pitch: 90.0
+    yaw: 87.74968719482422
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Magic
+    x: 5027.699999988079
+    y: 60.0
+    z: 57.67997462244237
+    pitch: 90.0
+    yaw: 87.74968719482422
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4898.488011203437
+    y: 52.0
+    z: 58.53788346591852
+    pitch: 83.10002899169922
+    yaw: 4.1996917724609375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4887.300000011921
+    y: 59.0
+    z: 61.77956873583949
+    pitch: 87.0
+    yaw: 131.09971618652344
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4887.3852230644015
+    y: 59.0
+    z: 51.57863845212533
+    pitch: 88.49999237060547
+    yaw: 81.29972076416016
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4885.45911350575
+    y: 51.0
+    z: 42.54559748870476
+    pitch: 83.39997863769531
+    yaw: 4.649776935577393
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Magic
+    x: 4880.699999988079
+    y: 60.0
+    z: 56.30000001192093
+    pitch: 82.49999237060547
+    yaw: -90.7502212524414
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Magic
+    x: 4884.300000011921
+    y: 60.0
+    z: 56.43242503698397
+    pitch: 80.85000610351562
+    yaw: -88.65021514892578
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4886.3196475164905
+    y: 51.0
+    z: -13.552601036005694
+    pitch: 90.0
+    yaw: -178.0501708984375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4899.300000011921
+    y: 52.0
+    z: -29.512656812843865
+    pitch: 86.85000610351562
+    yaw: -256.9501647949219
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4888.590796699867
+    y: 59.0
+    z: -32.524744364753886
+    pitch: 73.64998626708984
+    yaw: -336.9001770019531
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 4888.322667154008
+    y: 59.0
+    z: -22.45052830721601
+    pitch: 90.0
+    yaw: -262.2002868652344
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Magic
+    x: 4885.300000011921
+    y: 60.0
+    z: -27.483568813627503
+    pitch: 90.0
+    yaw: -259.500244140625
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Magic
+    x: 4881.699999988079
+    y: 60.0
+    z: -27.368385439843223
+    pitch: 90.0
+    yaw: -259.500244140625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5025.3393432811445
+    y: 51.0
+    z: -9.699999988079071
+    pitch: 90.0
+    yaw: -179.85025024414062
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5013.694227269464
+    y: 52.0
+    z: -25.569666450806416
+    pitch: 90.0
+    yaw: -84.60023498535156
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5024.699999988079
+    y: 59.0
+    z: -28.506175046000696
+    pitch: 90.0
+    yaw: -44.250244140625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Magic
+    x: 5024.699999988079
+    y: 59.0
+    z: -18.451879602635792
+    pitch: 88.04999542236328
+    yaw: -95.70027923583984
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Magic
+    x: 5031.300000011921
+    y: 60.0
+    z: -23.308128508739173
+    pitch: 90.0
+    yaw: -251.7002716064453
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Magic
+    x: 5027.699999988079
+    y: 60.0
+    z: -23.56217407696092
+    pitch: 90.0
+    yaw: -271.9502258300781
+teams:
+  Amarillo:
+    ==: Team
+    spawn:
+      world: Magic
+      x: 5020.399841242594
+      y: 58.0
+      z: -23.494745504119336
+      pitch: 65.99993896484375
+      yaw: 76.64981079101562
+    color: YELLOW
+    name: Amarillo
+    maxplayers: 4
+    bedhead:
+      world: Magic
+      x: 5011.0
+      y: 51.0
+      z: -12.0
+      pitch: 0.0
+      yaw: 0.0
+  Rojo:
+    ==: Team
+    spawn:
+      world: Magic
+      x: 4885.685851085344
+      y: 58.0
+      z: -18.62612932560272
+      pitch: 10.649949073791504
+      yaw: -53.1002197265625
+    color: RED
+    name: Rojo
+    maxplayers: 4
+    bedhead:
+      world: Magic
+      x: 4899.0
+      y: 51.0
+      z: -14.0
+      pitch: 0.0
+      yaw: 0.0
+  Verde:
+    ==: Team
+    spawn:
+      world: Magic
+      x: 4891.67738119698
+      y: 58.0
+      z: 56.58473362641487
+      pitch: 4.950001239776611
+      yaw: -113.70004272460938
+    color: GREEN
+    name: Verde
+    maxplayers: 4
+    bedhead:
+      world: Magic
+      x: 4900.0
+      y: 51.0
+      z: 45.0
+      pitch: 0.0
+      yaw: 0.0
+  Azul:
+    ==: Team
+    spawn:
+      world: Magic
+      x: 5027.45681356283
+      y: 58.0
+      z: 48.447621188104414
+      pitch: 87.14999389648438
+      yaw: -232.5001678466797
+    color: BLUE
+    name: Azul
+    maxplayers: 4
+    bedhead:
+      world: Magic
+      x: 5010.0
+      y: 51.0
+      z: 46.0
+      pitch: 0.0
+      yaw: 0.0

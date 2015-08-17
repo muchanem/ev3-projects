@@ -1,0 +1,9 @@
+JoinCommands:
+    - spawn
+
+LeaveCommands:
+    - spawn
+
+ConsoleJoinCommands:
+    
+ConsoleLeaveCommands:       

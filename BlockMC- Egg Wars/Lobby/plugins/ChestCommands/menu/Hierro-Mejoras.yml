@@ -1,0 +1,39 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Generador de hierro'
+  rows: 3
+  command: 'hierro'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'hierro'
+  NAME: '&7Maquina de hierro'
+  LORE:
+    - '&9Intervalo de produccion: 1 segundo'
+  ID: 265
+  POSITION-X: 3
+  POSITION-Y: 2
+Espadas:
+  NAME: '&6Mejorar generador de &7Hierro &6- Level 2'
+  REQUIRED-ITEM: 265, 20
+  COMMAND: 'fws red; fws green'
+  LORE:
+    - '&9Intervalo de produccion: 1 segundo'
+    - ''
+    - '&3Cost: &e20 &7Iron'
+  ID: 384
+  AMOUNT: 2
+  POSITION-X: 7
+  POSITION-Y: 2

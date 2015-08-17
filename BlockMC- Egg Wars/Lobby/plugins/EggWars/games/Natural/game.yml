@@ -1,0 +1,331 @@
+name: Natural
+world: Natural
+loc1:
+  world: Natural
+  x: 284.16426093012734
+  y: 75.59634188230054
+  z: -493.28805031533386
+  pitch: 13.199995994567871
+  yaw: 225.00042724609375
+loc2:
+  world: Natural
+  x: 421.4538934354358
+  y: 19.651236249688004
+  z: -645.0736664873876
+  pitch: 9.299997329711914
+  yaw: 41.700286865234375
+lobby:
+  world: PreLobbyEW
+  x: -3.4360464336250334
+  y: 55.0
+  z: -0.45253130988065093
+  pitch: -3.1500322818756104
+  yaw: 0.7499979734420776
+minplayers: 1
+record: 3600
+record-holders: []
+regionname: Natural
+time: 1000
+targetmaterial: DRAGON_EGG
+mainlobby:
+  world: LobbyEW
+  x: -0.5793937955177573
+  y: 77.0
+  z: -7.413283789373118
+  pitch: 5.39997673034668
+  yaw: -180.449951171875
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 303.30000001192093
+    y: 51.0
+    z: -557.305032193313
+    pitch: 90.0
+    yaw: 103.50004577636719
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 303.36368309531673
+    y: 51.0
+    z: -565.6999999880791
+    pitch: 88.94999694824219
+    yaw: 86.7000503540039
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 301.30000001192093
+    y: 55.0
+    z: -555.6083502935833
+    pitch: 90.0
+    yaw: 98.40003967285156
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 303.30000001192093
+    y: 51.0
+    z: -569.5485490796117
+    pitch: 88.6500015258789
+    yaw: 113.25003051757812
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 353.3654794806115
+    y: 51.0
+    z: -614.6999999880791
+    pitch: 79.94998931884766
+    yaw: -166.349853515625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 345.30000001192093
+    y: 51.0
+    z: -614.6999999880791
+    pitch: 87.74998474121094
+    yaw: -133.94981384277344
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 343.4997201718054
+    y: 55.0
+    z: -616.5332658567115
+    pitch: 90.0
+    yaw: -185.99974060058594
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 357.67836552971755
+    y: 51.0
+    z: -614.6999999880791
+    pitch: 88.6500015258789
+    yaw: -185.9996795654297
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 402.69999998807907
+    y: 51.0
+    z: -557.4914166426437
+    pitch: 90.0
+    yaw: -91.9497299194336
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 402.69999998807907
+    y: 51.0
+    z: -565.6999999880791
+    pitch: 76.64999389648438
+    yaw: -45.29965591430664
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 404.69999998807907
+    y: 55.0
+    z: -567.4675263239006
+    pitch: 90.0
+    yaw: 255.00033569335938
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 402.69999998807907
+    y: 51.0
+    z: -553.6377248581161
+    pitch: 78.30000305175781
+    yaw: 274.6504821777344
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 358.4954639324623
+    y: 55.0
+    z: -512.5720710114637
+    pitch: 90.0
+    yaw: -2.849517345428467
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 344.3489238971744
+    y: 51.0
+    z: -514.6547552221041
+    pitch: 82.34999084472656
+    yaw: 3.7504618167877197
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 356.69999998807907
+    y: 51.0
+    z: -514.3000000119209
+    pitch: 88.6500015258789
+    yaw: 19.800405502319336
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Natural
+    x: 348.59624845879483
+    y: 51.0
+    z: -514.7255216758789
+    pitch: 90.0
+    yaw: -11.549589157104492
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 355.50468631889146
+    y: 53.0
+    z: -555.3000000119209
+    pitch: 88.20000457763672
+    yaw: 181.5004425048828
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 355.50468631889146
+    y: 53.0
+    z: -555.3000000119209
+    pitch: 88.20000457763672
+    yaw: 181.5004425048828
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 355.69999998807907
+    y: 53.0
+    z: -563.6999999880791
+    pitch: 90.0
+    yaw: 161.4004364013672
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 355.69999998807907
+    y: 53.0
+    z: -563.6999999880791
+    pitch: 90.0
+    yaw: 161.4004364013672
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 347.32143664978867
+    y: 53.0
+    z: -563.602970662325
+    pitch: 90.0
+    yaw: -5.849587440490723
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Natural
+    x: 347.32143664978867
+    y: 53.0
+    z: -563.602970662325
+    pitch: 90.0
+    yaw: -5.849587440490723
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 347.34209212472376
+    y: 53.0
+    z: -555.3387632467343
+    pitch: 90.0
+    yaw: 7.650412559509277
+- ==: RessourceSpawner
+  name: diamond
+  location:
+    world: Natural
+    x: 347.34209212472376
+    y: 53.0
+    z: -555.3387632467343
+    pitch: 90.0
+    yaw: 7.650412559509277
+teams:
+  Amarillo:
+    ==: Team
+    spawn:
+      world: Natural
+      x: 317.652003586499
+      y: 50.0
+      z: -561.4910911720895
+      pitch: -44.40000534057617
+      yaw: -88.94998168945312
+    color: YELLOW
+    name: Amarillo
+    maxplayers: 2
+    bedhead:
+      world: Natural
+      x: 310.0
+      y: 51.0
+      z: -562.0
+      pitch: 0.0
+      yaw: 0.0
+  Rojo:
+    ==: Team
+    spawn:
+      world: Natural
+      x: 388.3462096963643
+      y: 50.0
+      z: -561.4687684931943
+      pitch: 7.949994087219238
+      yaw: 92.54998779296875
+    color: RED
+    name: Rojo
+    maxplayers: 2
+    bedhead:
+      world: Natural
+      x: 395.0
+      y: 51.0
+      z: -562.0
+      pitch: 0.0
+      yaw: 0.0
+  Azul:
+    ==: Team
+    spawn:
+      world: Natural
+      x: 349.5675502611775
+      y: 50.0
+      z: -600.4801165864917
+      pitch: -11.849994659423828
+      yaw: 0.450051873922348
+    color: BLUE
+    name: Azul
+    maxplayers: 2
+    bedhead:
+      world: Natural
+      x: 349.0
+      y: 51.0
+      z: -608.0
+      pitch: 0.0
+      yaw: 0.0
+  Verde:
+    ==: Team
+    spawn:
+      world: Natural
+      x: 352.3899314296633
+      y: 50.0
+      z: -528.2984795061617
+      pitch: -8.399992942810059
+      yaw: 185.39990234375
+    color: GREEN
+    name: Verde
+    maxplayers: 2
+    bedhead:
+      world: Natural
+      x: 352.0
+      y: 51.0
+      z: -522.0
+      pitch: 0.0
+      yaw: 0.0

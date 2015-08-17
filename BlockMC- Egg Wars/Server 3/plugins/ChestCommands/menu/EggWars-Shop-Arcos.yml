@@ -1,0 +1,55 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 1
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'give: 261,1;open: EggWars-Shop-Arcos.yml'
+  REQUIRED-ITEM: 264, 8
+  NAME: '&aArco'
+  LORE:
+    - '&7Precio: &a8 de &b&lDiamante'
+  ID: 261
+  POSITION-X: 1
+  POSITION-Y: 1
+Espadas:
+  COMMAND: 'give: 261,1;open: EggWars-Shop-Arcos.yml'
+  REQUIRED-ITEM: 264, 12
+  NAME: '&aArco con empuje'
+  LORE:
+    - '&7Precio: &a12 de &b&lDiamante'
+  ID: 261
+  POSITION-X: 2
+  POSITION-Y: 1
+Armadura:
+  NAME: '&aArco con poder;open: EggWars-Shop-Arcos.yml'
+  COMMAND: 'give: 261,1'
+  REQUIRED-ITEM: 264, 16
+  LORE:
+    - '&7Precio: &a16 de &b&lDiamante'
+  ID: 261
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'give: 262,5;open: EggWars-Shop-Arcos.yml'
+  REQUIRED-ITEM: 266, 2
+  NAME: '&aFlechas'
+  LORE:
+    - '&7Precio: &a2 de &6&lOro'
+  ID: 262
+  POSITION-X: 4
+  POSITION-Y: 1

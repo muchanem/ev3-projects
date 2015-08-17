@@ -1,0 +1,11 @@
+boards:
+  stats1:
+    command: bw stats
+    interval: 10s
+    sender: player
+    delay: 5s
+    location:
+      world: LobbyEW
+      x: -0.5248328571076363
+      y: 80.62
+      z: -10.383718365139865

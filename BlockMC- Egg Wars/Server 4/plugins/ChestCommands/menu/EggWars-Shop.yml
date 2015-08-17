@@ -1,0 +1,81 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 1
+  command: 'shop'
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'open: EggWars-Shop-Bloques.yml'
+  NAME: '&aBloques'
+  LORE:
+    - '&7Click para comprar bloques'
+  ID: 24
+  POSITION-X: 1
+  POSITION-Y: 1
+Espadas:
+  NAME: 'Espadas'
+  COMMAND: 'open: EggWars-Shop-Espadas.yml'
+  LORE:
+    - '&7Click para comprar espadas'
+  ID: GOLD_SWORD
+  POSITION-X: 2
+  POSITION-Y: 1
+Armadura:
+  NAME: '&aArmadura'
+  COMMAND: 'open: EggWars-Shop-Armadura.yml'
+  LORE:
+    - '&7Click para comprar armadura'
+  ID: IRON_CHESTPLATE
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'open: EggWars-Shop-Comida.yml'
+  NAME: '&aComida'
+  LORE:
+    - '&7Click para comprar comida'
+  ID: GRILLED_PORK
+  POSITION-X: 4
+  POSITION-Y: 1
+Picos:
+  COMMAND: 'open: EggWars-Shop-Picos.yml'
+  NAME: '&aPicos'
+  LORE:
+    - '&7Click para comprar picos'
+  ID: DIAMOND_PICKAXE
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+Arcos:
+  COMMAND: 'open: EggWars-Shop-Arcos.yml'
+  NAME: '&aArcos'
+  LORE:
+    - '&7Click para comprar arcos'
+  ID: 261
+  POSITION-X: 6
+  POSITION-Y: 1
+
+
+Raros:
+  COMMAND: 'open: EggWars-Shop-Raros.yml'
+  NAME: '&aRaros'
+  LORE:
+    - '&7Click para comprar raros'
+  ID: TNT
+  PRICE: 50
+  POSITION-X: 7
+  POSITION-Y: 1

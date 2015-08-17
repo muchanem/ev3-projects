@@ -1,0 +1,128 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 2
+  command: 'shop-armadura'
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'give: 298,1;open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 265, 1
+  NAME: '&aCasco de cuero'
+  LORE:
+    - '&7Precio: &a1 de &8&lHierro'
+  ID: 298
+  POSITION-X: 1
+  POSITION-Y: 1
+Espadas:
+  NAME: '&aPechera de cuero'
+  LORE:
+    - '&7Precio: &a1 de &8&lHierro'
+  ID: 299
+  COMMAND: 'give: 299,1;open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 265, 1
+  POSITION-X: 2
+  POSITION-Y: 1
+Armadura:
+  NAME: '&aPantalones de cuero'
+  COMMAND: 'give: 300,1;open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 265, 1
+  LORE:
+    - '&7Precio: &a1 de &8&lHierro'
+  ID: 300
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'give: 301,1;open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 265, 1
+  NAME: '&aBotas de cuero'
+  LORE:
+    - '&7Precio: &a1 de &8&lHierro'
+  ID: 301
+  POSITION-X: 4
+  POSITION-Y: 1
+Picos:
+  COMMAND: 'give: 302,1;open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 266, 10
+  NAME: '&aCasco de malla'
+  LORE:
+    - '&7Precio: &a10 de &6&lOro'
+  ID: 302
+  POSITION-X: 6
+  POSITION-Y: 1
+Arcos:
+  COMMAND: 'give: 303,1;open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 266, 10
+  NAME: '&aPechera de malla'
+  LORE:
+    - '&7Precio: &a10 de &6&lOro'
+  ID: 303
+  POSITION-X: 7
+  POSITION-Y: 1
+Raros:
+  COMMAND: 'give: 304,1; open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 266, 10
+  NAME: '&aPantalon de malla'
+  LORE:
+    - '&7Precio: &a10 de &6&lOro'
+  ID: 304
+  POSITION-X: 8
+  POSITION-Y: 1
+Casco:
+  COMMAND: 'give: 305,1; open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 266, 10
+  NAME: '&aBotas de malla'
+  LORE:
+    - '&7Precio: &a10 de &6&lOro'
+  ID: 305
+  POSITION-X: 9
+  POSITION-Y: 1
+Picos1:
+  COMMAND: 'give: 306,1; open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 264, 5
+  NAME: '&aCasco de diamante'
+  LORE:
+    - '&7Precio: &a5 de &b&ldiamante'
+  ID: 306
+  POSITION-X: 3
+  POSITION-Y: 2
+Arcos1:
+  COMMAND: 'give: 307,1; open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 264, 5
+  NAME: '&aPechera de diamante'
+  LORE:
+    - '&7Precio: &a5 de &b&ldiamante'
+  ID: 307
+  POSITION-X: 4
+  POSITION-Y: 2
+Raros1:
+  COMMAND: 'give: 308,1; open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 264, 5
+  NAME: '&aPantalon de diamante'
+  LORE:
+    - '&7Precio: &a5 de &b&ldiamante'
+  ID: 308
+  POSITION-X: 5
+  POSITION-Y: 2
+Casco1:
+  COMMAND: 'give: 309,1; open: EggWars-Shop-Armadura.yml'
+  REQUIRED-ITEM: 264, 5
+  NAME: '&aBotas de diamante'
+  LORE:
+    - '&7Precio: &a5 de &b&ldiamante'
+  ID: 309
+  POSITION-X: 6
+  POSITION-Y: 2

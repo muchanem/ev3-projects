@@ -1,0 +1,55 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 1
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Arena:
+  COMMAND: 'give: 54,1;open: EggWars-Shop-Raros.yml'
+  REQUIRED-ITEM: 265, 32
+  NAME: '&aCofre'
+  LORE:
+    - '&7Precio: &a10 de &6&lOro'
+  ID: 54
+  POSITION-X: 1
+  POSITION-Y: 1
+Cristal:
+  NAME: '&aCofre ender'
+  LORE:
+    - '&7Precio: &a64 de &8&lHierro'
+  COMMAND: 'give: 130,1;open: EggWars-Shop-Raros.yml'
+  REQUIRED-ITEM: 265, 64
+  ID: 130
+  POSITION-X: 2
+  POSITION-Y: 1
+Piedra luminosa:
+  NAME: '&aTNT'
+  COMMAND: 'give: 46,1;open: EggWars-Shop-Raros.yml'
+  REQUIRED-ITEM: 266, 20
+  LORE:
+    - '&7Precio: &a20 de &6&lOro'
+  ID: 46
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'give: 259,1;open: EggWars-Shop-Raros.yml'
+  REQUIRED-ITEM: 266, 10
+  NAME: '&aMechero'
+  LORE:
+    - '&7Precio: &a20 de &6&lOro'
+  ID: 259
+  POSITION-X: 4
+  POSITION-Y: 1

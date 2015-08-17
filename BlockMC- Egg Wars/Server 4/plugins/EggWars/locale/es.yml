@@ -1,0 +1,268 @@
+default:
+    pages: "Pagina $current$ de $max$"
+    currently: Actualmente
+errors:
+    argumentslength: "Numero de argumentos no coincide con la cantidad correcta!"
+    packagenotfound: "No se pudo obtener $package$ paquete!"
+    classnotfound: "No se pudo obtener $package$ clase $class$!"
+    gameexists: "Un juego con este nombre ya existe!"
+    gamenotfound: "The game '$game$' could not be found!"
+    gamenotfoundsimple: "Juego no encontrado!"
+    playeramount: "The maxium of players can't be lower than 1 or higher than 24!"
+    teamcolornotallowed: "The given Team color isn't a allowed color"
+    teamnamelength: "Team name must have between 2 and 20 characters!"
+    teamnotfound: "The given team was not found!"
+    notingame: "You are currently not in a game!"
+    bedtargeting: "You have to target or stand on a block of the configured 'game-block' type!"
+    regionargument: "Your location argument has to be 'loc1' or 'loc2'!"
+    spawnerargument: "Su argumento tiene que ser uno de los siguientes (diamond;gold;iron)"
+    blockdownnotfound: "The block you're standing on was not found!"
+    gamenotrunning: "Game isn't running!"
+    bungeenoserver: "Bungeecord Servers wasn't set properly! Talk to the server administrator!"
+    cantstartagain: "Game is running! You can't start a running game again!"
+    startoutofwaiting: "Game have to be started out of the waiting mode!"
+    cantjoingame: "You can't join a running or stopped game!"
+    lobbyongameworld: "Lobby can't be on the game world!"
+    gamenotloaded: "Couldn't start up the game!"
+    gameloaderror: "Loading game '$game$' throws an error!"
+    regionnotfound: "Region file does not exists!"
+    savesign: "Couldn't create a new sign config file!"
+    nogames: "No games found!"
+    notenoughress: "You didn't have enough ressource to buy this item!"
+    teamnameinuse: "Team name is already in use!"
+    minplayersmustnumber: "Min players must be a number!"
+    toolongregionname: "Maximum length of region name are 15 characters!"
+    notwhilegamerunning: "Cannot do that while game is running!"
+    notwhileingame: "Cannot do that while you're in a running game!"
+    teamnotfound: "Team not found!"
+    timeincorrect: "Time has to be a number (0 ... 23000), 'day' or 'night'!"
+    minplayersnumeric: "The min-players parameter must be numeric!"
+    notinair: "You're not in the air!"
+    teamfull: "The team is full, please reopen the team selection menu!"
+    novalidmaterial: "Given block type (material) isn't correct!"
+    wrongvalueonoff: "Wrong Parameter! Use true,on,1 to turn on - Use false,off,0 to turn off!"
+    playernotfound: "Given player was not found or isn't online!"
+    notingameforkick: "You must be in a game to kick a player!"
+    playernotingame: "Given player is not in this game!"
+    mustbeinlobbyworld: "You must be in the lobby world of the game"
+    addteamjoincancel: "The adding of team join was cancelled!"
+    entitynotcompatible: "This entity is not compatible with team join!"
+success:
+    gameadded: "Nuevo juego '$game$' añadido!"
+    teamadded: "Equipo '$team$' añadido!"
+    joined: "You successfully joined the game!"
+    left: "You successfully left the game!"
+    saved: "Juego se ha guardado correctamente!"
+    bedset: "El huevo a sido establecido $team$!"
+    regionset: "Ubicacion region $location$ de juego para $game$ se establecio con exito!"
+    spawnset: "Spawn del equipo $team$ establecido correctamente!"
+    spawnerset: "Spawner de $name$ establecido correctamente!"
+    stopped: "Game successfully stopped!"
+    lobbyset: "Lobby se establecio con correctamente!"
+    gameloaded: "Juego '$game$' correctamente cargado!"
+    reloadconfig: "Actualizado correctamente!"
+    teamremoved: "Team was successfully removed!"
+    gameremoved: "Game was successfully removed!"
+    spawnercleared: "All ressource spawners has been removed!"
+    gamerun: "You started the game, players can now join!"
+    timeset: "Tiempo de juego se estableció con correctamente!"
+    regionnameset: "Region name establecido correctamente!"
+    minplayersset: "Min players establecido correctamente!"
+    mainlobbyset: "Mainlobby establecido correctamente!"
+    gametimeset: "Game time was set successfully!"
+    materialset: "El bloque de respawnear (material) se establecido correctamente!"
+    builderset: "The builder for the map was set successfully and will display in title!"
+    autobalanceseton: "Autobalance was successfully turned on!"
+    autobalancesetoff: "Autobalance was successfully turned &coff&a!"
+    selectteamjoinentity: "Now do a right click on the entity you want to use as team join!"
+    teamjoinadded: "Usted entro en el equipo $team$"
+gamecheck:
+    LOC_NOT_SET_ERROR: "Locations for the region were not set properly!"
+    TEAM_SIZE_LOW_ERROR: "You have to set more teams!"
+    NO_RES_SPAWNER_ERROR: "You didn't set any resource spawner!"
+    NO_LOBBY_SET: "You didn't set a lobby!"
+    TEAMS_WITHOUT_SPAWNS: "There are team(s) without a spawn location!"
+    NO_ITEMSHOP_CATEGORIES: "No itemshop categories found!"
+    NO_MAIN_LOBBY_SET: "You didn't set a main lobby even though you did set 'tomainlobby' to true"
+    TEAM_NO_WRONG_BED: "One or more teams have no bed set!"
+    TEAM_NO_WRONG_TARGET: "One or more teams have no respawn block set!"
+ingame:
+    teams: "Teams"
+    all: "All"
+    record: "&e$record$&a is the record on this map!"
+    record-with-holders: "&aThe record on this map is &e$record$&a and is held by: $holders$"
+    newrecord: "&aTeam $team$&a set a new record: &6$record$"
+    record-nobeddestroy: "&cRecord won't be saved, because no bed was destroyed!"
+    teamwon: "Felicitaciones! Equipo $team$ gano!                                         &6+ 15 puntos"
+    draw: "The game ends with a draw!"
+    serverrestart: "Reiniciando el server en $sec$ segundo(s)!"
+    gamestarting: "El juego esta iniciando"
+    gamestarted: "Game '$game$' has just started!"
+    backtolobby: "Regresando al lobby en $sec$ segundo(s)!"
+    spectator: "Spectator"
+    spectate: "&aSpectate"
+    teamchest: "Team chest"
+    noturteamchest: "This chest isn't a chest of your team!"
+    protectionleft: "Invulnerable for &c$length$&f second(s)!"
+    protectionend: "You're now &cvulnerable&f again!"
+    team-dead: "El equipo $team$ a sido destruido!"
+    no-friendlybreak: "&cCan't break block under team-member!"
+    title:
+        map-builder: "Construido por $builder$"
+        win-title: "&6Felicitaciones!"
+        win-subtitle: "$team$&6 ganado en &e$time$"
+    shop:
+        name: "&6EggWars"
+        newshop: "&6Shop"
+        oldshop: "&6Shoping"
+        fullstackpershift: Multiply stacks per shift click
+        onestackpershift: One stack per shift click
+    player:
+        left: "Jugador $player$ a salido!"
+        died: "$player$ a muerto!"
+        killed: "$killer$ asesionado por $player$!"
+        kicked: "$player$ fue sacado!"
+        waskicked: "Usted fue expulsado del juego!"
+    blocks:
+        ownbeddestroy: "No puedes destruir tu huevo!"
+        beddestroyed: "$player$ a destruido el huevo del equipo $team$!"
+    specials:
+        rescue-platform:
+            left: "There are &c$time$&f second(s) left until you can use the next rescue platform!"
+        trap:
+            trapped: "&eSomeone went into a &ctrap&e of your team!"
+        protection-wall:
+            left: "There are &c$time$&f second(s) left until you can use the next protection wall!"
+            not-usable-here: "You cannot use the protection wall here!"
+        warp-powder:
+            cancelled: "&cYour teleport was cancelled!"
+            start: "You will be teleported in &c$time$&f second(s). Don't move!"
+            cancel: "&4Cancel teleport"
+        tntsheep:
+            no-target-found: "No target player was found!"
+lobby:
+    countdown: "&9Juego se iniciará en $sec$ &9segundo(s)!"
+    countdowncancel: "More players needed. Countdown was cancelled!"
+    cancelcountdown:
+        TEAMS_HAVE_PLAYERS: "Minimum one team got no players. Countdown cancelled!"
+        PLAYERS_IN_GAME: "More players needed. Countdown cancelled!"
+        ENOUGH_TEAMS_AND_PLAYERS: "Only one team have players or more players are needed. Countdown cancelled!"
+    chooseteam: "Equipos"
+    startgame: "Iniciar"
+    gamefull: "El juego esta lleno!"
+    gamefullpremium: "El juego está lleno de jugadores de primera calidad ya!"
+    teamjoined: "Te uniste correctamente al equipo $team$"
+    leavegame: "Salir"
+    playerjoin: "$player$ a entrado al juego!"
+    kickedbyvip: "Usted fue votado por un jugador vip que se ha unido el juego completo!"
+    notenoughplayers-rule0: "More players are needed to start the game!"
+    notenoughplayers-rule1: "Every team needs one ore more players to start the game!"
+sign:
+    firstline: "&0&lEggWars"
+    players: "Jugadores"
+    gamestate:
+        stopped: "&4Detenido!"
+        waiting: "&aEsperando"
+        running: "&4En-Juego"
+        full: "&5Full"
+stats:
+    header: "Estadisticas EggWars"
+    kd: "K/D"
+    statsnotfound: "Statistics of $player$ not found!"
+    name: "Nombre"
+    kills: "Matansas"
+    deaths: "Muertes"
+    wins: "Ganadas"
+    loses: "Perdidas"
+    score: "Puntos"
+    destroyedBeds: "Huevos rotos"
+    games: "Juegos"
+ressources:
+    gold: "&bDiamond"
+    iron: "&6Gold"
+    bronze: "&7Iron"
+commands:
+    addgame:
+        name: "Add Game"
+        desc: "Adds a new game"
+    addteam:
+        name: "Add Team"
+        desc: "Adds a team to a specific game"
+    join:
+        name: "Join Game"
+        desc: "Joins a specific game"
+    leave:
+        name: "Leave Game"
+        desc: "Leave the current game"
+    save:
+        name: "Save Game"
+        desc: "Saves a game (and map) to config file(s)"
+    settarget:
+        name: "Set target"
+        desc: "Sets the location of a team's target block"
+    setbed:
+        name: "Set bed (synonym for settarget)"
+        desc: "Sets the location of a team's bed block (Synonym for settarget)"
+    setlobby:
+        name: "Set lobby"
+        desc: "Sets the location of the gamelobby"
+    setregion:
+        name: "Sets a region point"
+        desc: "Sets a region point for the game"
+    setspawn:
+        name: "Sets a team spawn"
+        desc: "Sets the spawn of the given team"
+    setspawner:
+        name: "Set spawner"
+        desc: "Sets a spawner location of a specific ressource"
+    start:
+        name: "Start game"
+        desc: "Starts a game"
+    stop:
+        name: "Stop game"
+        desc: "Stops a game"
+    help:
+        name: "Show Help"
+        desc: "Display information about the plugin and its commands"
+    reload:
+        name: "Reload"
+        desc: "Reloads the configurations and translations"
+    setmainlobby:
+        name: "Set main lobby"
+        desc: "Sets the main lobby of a game (is needed when mainlobby-enabled is set to true)"
+    list:
+        name: "List games"
+        desc: "Lists all available games"
+    regionname:
+        name: "Set region name"
+        desc: "Sets an individual region name (instead of world name)"
+    removeteam:
+        name: "Remove team"
+        desc: "Removes a team from the game (only in stopped mode)"
+    removegame:
+        name: "Remove game"
+        desc: "Removes a game and every configuration"
+    clearspawner:
+        name: "Clear spawners"
+        desc: "Removes all spawners from the game. Saving needed."
+    gametime:
+        name: "Set game time"
+        desc: "Sets the game time which should be used in the game-world"
+    stats:
+        name: "Statistics"
+        desc: "Shows your statistics"
+    setbuilder:
+        name: "Sets builder of map"
+        desc: "Sets the builder of the map which will be display in the title when game starts."
+    setgameblock:
+        name: "Set game block"
+        desc: "Sets the game block type for this game which should be used instead of the 'game-block' configuration. Write 'DEFAULT' as type to use the type of config again"
+    setautobalance:
+        name: "Set autobalance"
+        desc: "If 'global-autobalance' is set to 'false', with this command you can set team-autobalance per game to on or off!"
+    kick:
+        name: "Kick player"
+        desc: "Kicks a player from the current game!"
+    addteamjoin:
+        name: "Add team selection"
+        desc: "Mark a creature which can be used to join a specific team!"

@@ -1,0 +1,301 @@
+### SHOP ###
+### NOT ALLOWED CATEGORY MATERIAL: SLIME_BALL, SNOW_BALL, BUCKET, LAVA_BUCKET
+### The categories (unique key!)
+###### Categories:
+###### item:
+######  type: string or int
+######  Itemname or Item-ID which should be 
+######  displayed to represent the category
+###### name: 
+######  type: string
+######  Name of the category
+###### lore:
+######  type: list<string>
+######  The lore (description) the category should have.
+###### order:
+######  type: int
+######  The order the categories will be displayed
+######### Offers:
+######### item1 (first trade item):
+#########  item: 
+#########   type: string or int
+#########   Item-Name or Item-ID
+#########  amount: 
+#########   type: int
+#########   The stack amount the item should have
+#########  name:
+#########   type: string (colorcodes with &)
+#########   A specific name for the item
+#########  enchants:
+#########   key: Has to be the enchant-ID or enchant-name!
+#########   value: The level of the enchant
+#########  lore:
+#########   type: list<string> (colorcodes with &)
+#########   The lores this item should have
+#########  meta:
+#########   type: short (potion) or byte (any other item)
+#########   The meta byte which should be added to the item
+######### item2 (optional, second trade item): See item1
+######### reward (reward item): See item1
+shop:
+    armor:
+        item: IRON_CHESTPLATE
+        name: Armadura 
+        order: 30
+        permission: bw.base
+        lore:
+            - Protect yourself with armor! Click here.
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: LEATHER_HELMET
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: LEATHER_CHESTPLATE
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: LEATHER_LEGGINGS
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: LEATHER_BOOTS
+                amount: 1
+            - item1:
+                item: DIAMOND
+                amount: 5
+              reward:
+                item: 306
+                amount: 1
+            - item1:
+                item: DIAMOND
+                amount: 5
+              reward:
+                item: 307
+                amount: 1
+            - item1:
+                item: DIAMOND
+                amount: 5
+              reward:
+                item: 308
+                amount: 1
+            - item1:
+                item: DIAMOND
+                amount: 5
+              reward:
+                item: 309
+                amount: 1
+    swords:
+        item: GOLD_SWORD
+        name: Espadas
+        order: 20
+        permission: bw.base
+        lore:
+            - Click here to get sword for attacking your enemies
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 12
+              reward:
+                item: 268
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 32
+              reward:
+                item: 272
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 16
+              reward:
+                item: 267
+                amount: 1
+            - item1:
+                item: DIAMOND
+                amount: 12
+              reward:
+                item: 276
+                amount: 1
+    bows:
+        item: 261
+        name: Arcos
+        order: 60
+        permission: bw.base
+        lore:
+            - Prove yourself as a marksman with these wonderful bows
+        offers:
+            - item1:
+                item: DIAMOND
+                amount: 8
+              reward:
+                item: 261
+                amount: 1
+            - item1:
+                item: DIAMOND
+                amount: 12
+              reward:
+                item: 261
+                amount: 1
+                enchants:
+                    48: 1
+            - item1:
+                item: DIAMOND
+                amount: 16
+              reward:
+                item: 261
+                amount: 1
+                enchants:
+                    51: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 2
+              reward:
+                item: 262
+                amount: 5
+    eat:
+        item: GRILLED_PORK
+        name: Essen
+        order: 40
+        permission: bw.base
+        lore:
+            - Are you hungry? Get something to eat.
+        offers: 
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 391
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 5
+              reward:
+                item: 364
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 2
+              reward:
+                item: 322
+                amount: 1
+            - item1:
+                item: DIAMOND
+                amount: 32
+              reward:
+                item: 322
+                meta: 1
+                amount: 1  
+    pickaxes:
+        item: DIAMOND_PICKAXE
+        name: Spitzhacken
+        order: 50
+        permission: bw.base
+        lore:
+            - Destroy others blocks? Use these pickaxes.
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 10
+              reward:
+                item: STONE_PICKAXE
+                amount: 1
+                enchants:
+                    35: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 15
+              reward:
+                item: IRON_PICKAXE
+                amount: 1
+                enchants:
+                    35: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 16
+              reward:
+                item: DIAMOND_PICKAXE
+                amount: 1
+                enchants:
+                    35: 1
+            - item1:
+                item: DIAMOND
+                amount: 10
+              reward:
+                item: DIAMOND_PICKAXE
+                amount: 1
+                enchants:
+                    35: 3
+    blocks:
+        item: SANDSTONE
+        name: Blöcke
+        order: 10
+        permission: bw.base
+        lore:
+            - Get to the others! Possible with blocks.
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 24
+                amount: 2
+            - item1:
+                item: IRON_INGOT
+                amount: 2
+              reward:
+                item: 20
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 89
+                amount: 2
+            - item1:
+                item: GOLD_INGOT
+                amount: 10
+              reward:
+                item: 49
+                amount: 1
+    usefulstuff:
+        item: TNT
+        name: Nützliche Sachen
+        order: 70
+        permission: bw.base
+        lore:
+            - Looking for useful stuff? Here are some!
+        offers:
+            - item1:
+                item: IRON_INGOT
+                amount: 3
+              reward:
+                item: TNT
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 259
+                amount: 1
+            - item1:
+                item: IRON_INGOT
+                amount: 1
+              reward:
+                item: 54
+                amount: 1
+            - item1:
+                item: GOLD_INGOT
+                amount: 1
+              reward:
+                item: 130
+                amount: 1

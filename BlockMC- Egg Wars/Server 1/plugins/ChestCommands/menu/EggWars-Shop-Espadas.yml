@@ -1,0 +1,55 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 1
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'give: 268,1; open: EggWars-Shop-Espadas.yml'
+  REQUIRED-ITEM: 265, 5
+  NAME: '&aEspada de madera'
+  LORE:
+    - '&7Precio: &a5 de &8&lHierro'
+  ID: 268
+  POSITION-X: 1
+  POSITION-Y: 1
+Espadas:
+  NAME: '&aEspada de piedra'
+  LORE:
+    - '&7Precio: &a32 de &8&lHierro'
+  ID: 272
+  COMMAND: 'give: 272,1; open: EggWars-Shop-Espadas.yml'
+  REQUIRED-ITEM: 265, 32
+  POSITION-X: 2
+  POSITION-Y: 1
+Armadura:
+  NAME: '&aEspada de hierro'
+  COMMAND: 'give: 267,1; open: EggWars-Shop-Espadas.yml'
+  REQUIRED-ITEM: 266, 16
+  LORE:
+    - '&7Precio: &a32 de &6&lOro'
+  ID: 267
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'give: 276,1; open: EggWars-Shop-Espadas.yml'
+  REQUIRED-ITEM: 264, 12
+  NAME: '&aEspada de diamante'
+  LORE:
+    - '&7Precio: &a12 de &b&lDiamantes'
+  ID: 276
+  POSITION-X: 4
+  POSITION-Y: 1

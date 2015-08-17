@@ -1,0 +1,20 @@
+uuid: d04f4596-8cbd-397e-8d24-0dd4bb62185c
+timestamps:
+  login: 1437299027008
+  logout: 1437299454540
+  lastteleport: 1437299041722
+ipAddress: 192.168.0.100
+lastlocation:
+  world: Cuidad
+  x: -700.5715807614359
+  y: 4.0
+  z: 711.3000000119209
+  yaw: 89.850006
+  pitch: 25.64999
+logoutlocation:
+  world: Cuidad
+  x: -710.5
+  y: 6.0
+  z: 715.5
+  yaw: -74.699936
+  pitch: 33.750023

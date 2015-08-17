@@ -1,0 +1,19 @@
+on load:
+	send "&b[&aEggWars-Options&b] &aPlugin Activado. Plugin creado por Leonardo0013" to console
+on unload:
+	send "&b[&aEggWars-Options&b] &aPlugin Desactivado. Plugin creado por Leonardo0013" to console
+
+on rightclick:
+	if clicked block is a dragon egg:
+		cancel event
+		
+on leftclick:
+	if clicked block is a dragon egg:
+		cancel event
+		wait 1 tick
+		run player command "/break" as op
+on rightclick on entity:
+	set {_name} to display name of clicked entity
+	if {_name} contains "EggWars Shop" or "eggwars shop":
+	    cancel event
+		make player execute command "/shop"

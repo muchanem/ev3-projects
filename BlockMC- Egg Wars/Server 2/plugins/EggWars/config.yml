@@ -1,0 +1,203 @@
+# ###############################
+# ####### EGGWARS CONFIG ########
+# ### CREATED BY LEONARDO0013 ###
+# ###############################
+# ###### EXPLANATION ABOUT ######
+# ##### EVERY CONFIGURATION #####
+# ### YOU CAN FIND ON GITHUB ####
+# ############ WIKI #############
+# ###############################
+
+
+chat-prefix: '&7[&bEggWars&7]&f'
+plugin-metrics: true
+global-messages: true
+global-autobalance: false
+gamelength: 60
+overwrite-names: false
+teamname-on-tab: false
+teamname-in-chat: false
+hearts-on-death: true
+lobbytime: 60
+lobby-chatformat: '$player$: $msg$'
+ingame-chatformat-all: '[$all$] <$team$> $player$: $msg$'
+ingame-chatformat: '<$team$> $player$: $msg$'
+game-block: DRAGON_EGG
+store-game-records: true
+store-game-records-holder: true
+bed-sound: ENDERDRAGON_GROWL
+player-drops: false
+place-in-liquid: true
+breakable-blocks:
+- none
+jointeam-entity:
+  show-name: true
+lobby-scoreboard:
+  enabled: true
+  title: '&eEggWars'
+  content:
+  - '&6Map: &a$gamename$'
+  - '&5Guerrero: &c$players$'
+  - ' '
+  - '&5Players: &a$players$&e/&a$maxplayers$'
+  - ' '
+  - '&6play.cubecraftgames.net'
+scoreboard:
+  format-bed-destroyed: '&c$status$ $team$'
+  format-bed-alive: '&a$status$ $team$'
+  format-title: '&e&lEggWars'
+titles:
+  win:
+    enabled: true
+    title-fade-in: 1.5
+    title-stay: 5.0
+    title-fade-out: 2.0
+    subtitle-fade-in: 1.5
+    subtitle-stay: 5.0
+    subtitle-fade-out: 2.0
+    title: '&7-------------------------'
+    subtitle: '&eEquipo {team} &agano el juego'
+  map:
+    enabled: false
+    title-fade-in: 1.5
+    title-stay: 2.0
+    title-fade-out: 1.5
+    subtitle-fade-in: 1.5
+    subtitle-stay: 2.0
+    subtitle-fade-out: 1.5
+  countdown:
+    enabled: true
+    format: '&cEl juego inicia en {countdown}'
+explodes:
+  destroy-worldblocks: false
+  destroy-beds: false
+  drop-blocking: false
+lobbycountdown-rule: 2
+friendlyfire: false
+friendlybreak: true
+gameoverdelay: 10
+chat-to-all-prefix: '@'
+seperate-game-chat: true
+seperate-spectator-chat: false
+statistics:
+  enabled: false
+  storage: yaml
+  bed-destroyed-kills: false
+  scores:
+    kill: 10
+    die: 0
+    win: 50
+    bed-destroy: 25
+    lose: 0
+    record: 100
+database:
+  host: localhost
+  port: 3306
+  db: database
+  user: root
+  password: secret
+  connection-pooling:
+    min-pool-size: 3
+    max-pool-size: 15
+spectation-enabled: false
+respawn-protection: 0
+allowed-commands:
+- /help
+- /shop
+- /hierro
+- /diamante
+- /oro
+- /fws red
+- /fws green
+endgame:
+  mainlobby-enabled: false
+  all-players-to-mainlobby: true
+bungeecord:
+  enabled: false
+  hubserver: hub
+  spigot-restart: true
+  motds:
+    lobby: '&a[Lobby]'
+    running: '&1[Running]'
+    stopped: '&c[Stopped]'
+    full: '&c[Full]'
+locale: es
+ressource:
+  bronze:
+    item: IRON_INGOT
+    spawn-interval: 1000
+    amount: 1
+    name: '&7Iron'
+  iron:
+    item: IRON_INGOT
+    spawn-interval: 1000
+    amount: 1
+    name: '&7Iron'
+  gold:
+    item: GOLD_INGOT
+    spawn-interval: 10000
+    amount: 1
+    name: '&6Gold'
+  diamond:
+    item: DIAMOND
+    spawn-interval: 20000
+    amount: 1
+    name: '&bDiamond'
+check-updates: true
+update-infos: true
+rewards:
+  enabled: false
+  player-win:
+  - /points {player} 15
+  player-end-game:
+  - /points {player} 5
+  player-destroy-bed:
+  - /points {player} 15
+  player-kill:
+  - /points {player} 1
+specials:
+  rescue-platform:
+    break-time: 10
+    using-wait-time: 20
+    item: BLAZE_ROD
+    can-break: false
+    block: STAINED_GLASS
+  protection-wall:
+    break-time: 0
+    wait-time: 20
+    can-break: true
+    item: BRICK
+    block: SANDSTONE
+    width: 5
+    height: 3
+    distance: 2
+  magnetshoe:
+    probability: 75
+    boots: IRON_BOOTS
+  warp-powder:
+    show-particles: true
+    particle: fireworksSpark
+    teleport-time: 6
+  trap:
+    duration: 10
+    blindness:
+      enabled: true
+      amplifier: 2
+    slowness:
+      enabled: true
+      amplifier: 2
+    weakness:
+      enabled: true
+      amplifier: 2
+    show-particles: true
+    play-sound: true
+  tntsheep:
+    fuse-time: 8.0
+    speed: 0.4
+sign:
+  first-line: '&lEggWars'
+  second-line: '&e$status$'
+  third-line: '&nMapa: $regionname$'
+  fourth-line: '&7$currentplayers$/$maxplayers$'
+player-settings:
+  one-stack-on-shift: false

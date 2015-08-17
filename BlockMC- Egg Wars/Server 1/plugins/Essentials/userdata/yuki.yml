@@ -1,0 +1,18 @@
+lastlocation:
+  world: world
+  x: 221.0
+  y: 66.0
+  z: 263.0
+  yaw: -38.1
+  pitch: 12.75
+uuid: eb2c5b56-d905-3a60-995f-b740bd53c675
+timestamps:
+  login: 1435599517005
+ipAddress: 192.168.0.101
+logoutlocation:
+  world: BuildBattle(A)
+  x: 137.0
+  y: 4.0
+  z: 228.0
+  yaw: 0.0
+  pitch: 0.0

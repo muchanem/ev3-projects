@@ -1,0 +1,39 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&bGenerador de Diamante'
+  rows: 3
+  command: 'diamante'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'diamante'
+  NAME: '&6Maquina de &bDiamante'
+  LORE:
+    - '&9Intervalo de produccion: 10 segundo'
+  ID: 264
+  POSITION-X: 3
+  POSITION-Y: 2
+Espadas:
+  NAME: '&6Mejorar generador de &7Hierro &6- Level 2'
+  COMMAND: 'fws red; fws green'
+  REQUIRED-ITEM: 264, 5
+  LORE:
+    - '&9Intervalo de produccion: 10 segundo'
+    - ''
+    - '&3Costo: &e5 &bDiamantes'
+  ID: 384
+  AMOUNT: 2
+  POSITION-X: 7
+  POSITION-Y: 2

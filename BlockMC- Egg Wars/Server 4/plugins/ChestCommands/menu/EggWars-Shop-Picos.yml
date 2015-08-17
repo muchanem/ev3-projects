@@ -1,0 +1,55 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 1
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'give: 274,1;open: EggWars-Shop-Picos.yml'
+  REQUIRED-ITEM: 265, 10
+  NAME: '&aPico de piedra'
+  LORE:
+    - '&7Precio: &a10 de &8&lHierro'
+  ID: 274
+  POSITION-X: 1
+  POSITION-Y: 1
+Espadas:
+  NAME: 'Pico de hierro'
+  LORE:
+    - '&7Precio: &a3 de &6&lOro'
+  ID: 257
+  COMMAND: 'give: 257,1;open: EggWars-Shop-Picos.yml'
+  REQUIRED-ITEM: 266, 3
+  POSITION-X: 2
+  POSITION-Y: 1
+Armadura:
+  NAME: 'Pico de diamante'
+  COMMAND: 'give: 278,1;open: EggWars-Shop-Picos.yml'
+  REQUIRED-ITEM: 266, 10
+  LORE:
+    - '&7Precio: &a10 de &6&lOro'
+  ID: 278
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'give: 278,1;open: EggWars-Shop-Picos.yml'
+  REQUIRED-ITEM: 264, 10
+  NAME: 'Pico de diamante'
+  LORE:
+    - '&7Precio: &a10 de &b&lDiamante'
+  ID: 278
+  POSITION-X: 4
+  POSITION-Y: 1

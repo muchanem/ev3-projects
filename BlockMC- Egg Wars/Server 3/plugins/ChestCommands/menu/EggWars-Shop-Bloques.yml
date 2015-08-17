@@ -1,0 +1,55 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 1
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Arena:
+  COMMAND: 'give: 24,32; open: EggWars-Shop-Bloques.yml'
+  REQUIRED-ITEM: 265, 32
+  NAME: '&aArenisca'
+  LORE:
+    - '&7Precio: &a32 de &8&lHierro'
+  ID: 24
+  POSITION-X: 1
+  POSITION-Y: 1
+Cristal:
+  NAME: '&aCristal'
+  LORE:
+    - '&7Precio: &a1 de &8&lHierro'
+  COMMAND: 'give: 20,1; open: EggWars-Shop-Bloques.yml'
+  REQUIRED-ITEM: 265, 1
+  ID: 20
+  POSITION-X: 2
+  POSITION-Y: 1
+Piedra luminosa:
+  NAME: '&aPriedra luminosa'
+  COMMAND: 'give: 89,1; open: EggWars-Shop-Bloques.yml'
+  REQUIRED-ITEM: 265, 2
+  LORE:
+    - '&7Precio: &a2 de &8&lHierro'
+  ID: 89
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'give: 49,1; open: EggWars-Shop-Bloques.yml'
+  REQUIRED-ITEM: 266, 10
+  NAME: '&aObsidiana'
+  LORE:
+    - '&7Precio: &a10 de &6&lOro'
+  ID: 49
+  POSITION-X: 4
+  POSITION-Y: 1

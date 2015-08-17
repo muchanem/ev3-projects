@@ -1,0 +1,274 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 25
+npc:
+  '16':
+    name: "\xa76EggWars Shop"
+    uuid: a2849507-33df-4e40-b08c-6f7f736dbadf
+    traits:
+      type: VillagerGolem
+      spawned: true
+      location:
+        world: Magic
+        x: '4895.572910999416'
+        y: '50.0'
+        z: '-11.482680314594866'
+        yaw: '194.38482666015625'
+        pitch: '0.0'
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    name: "\xa76EggWars Shop"
+    uuid: 56ceefed-2e7e-482d-aff1-7b8cb059065a
+    traits:
+      type: VillagerGolem
+      spawned: true
+      location:
+        world: Magic
+        x: '5009.476581754759'
+        y: '50.0'
+        z: '-13.486001441133745'
+        yaw: '-44.39634704589844'
+        pitch: '0.0'
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    name: "\xa76EggWars Shop"
+    uuid: 5da93834-d9c5-4609-aa72-a7d54077dae5
+    traits:
+      type: VillagerGolem
+      spawned: true
+      location:
+        world: Magic
+        x: '5013.354466158883'
+        y: '50.0'
+        z: '43.53517321087208'
+        yaw: '-59.035133361816406'
+        pitch: '0.0'
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    name: "\xa76EggWars Shop"
+    uuid: 159ac5aa-3d3d-481b-aaf9-7672cd331441
+    traits:
+      spawned: true
+      location:
+        world: Toys
+        x: '5998.395723633943'
+        y: '50.0'
+        z: '71.63641174660795'
+        yaw: '235.67819213867188'
+        pitch: '0.0'
+      type: VillagerGolem
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    name: "\xa76EggWars Shop"
+    uuid: 23a7bf10-0861-4995-ad16-8328b20bbe23
+    traits:
+      spawned: true
+      location:
+        world: Toys
+        x: '6038.5900478825215'
+        y: '50.0'
+        z: '46.51628207335568'
+        yaw: '143.96133422851562'
+        pitch: '0.0'
+      type: VillagerGolem
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    name: "\xa76EggWars Shop"
+    uuid: d7bd987f-4653-41b8-9d25-d4bc23f8620f
+    traits:
+      spawned: true
+      location:
+        world: Magic
+        x: '4901.541322868076'
+        y: '50.0'
+        z: '49.41886358955972'
+        yaw: '162.04986572265625'
+        pitch: '0.0'
+      type: VillagerGolem
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    name: "\xa76EggWars Shop"
+    uuid: d0e14137-5a49-4184-acde-6b29a3bcc092
+    traits:
+      location:
+        world: Natural
+        x: '320.3444748568776'
+        y: '50.0'
+        z: '-564.5826940995356'
+        yaw: '41.05255126953125'
+        pitch: '0.0'
+      type: VillagerGolem
+      spawned: true
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    name: "\xa76EggWars Shop"
+    uuid: f9863960-387f-433f-9aa8-499f0cc12177
+    traits:
+      location:
+        world: Natural
+        x: '352.6108192941603'
+        y: '50.0'
+        z: '-596.3986060609233'
+        yaw: '130.33206176757812'
+        pitch: '0.0'
+      type: VillagerGolem
+      spawned: true
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    name: "\xa76EggWars Shop"
+    uuid: 50963cf0-6396-468b-a0fa-f04b97bfdadd
+    traits:
+      location:
+        world: Natural
+        x: '385.5951555692462'
+        y: '50.0'
+        z: '-558.9368169427256'
+        yaw: '255.27572631835938'
+        pitch: '0.0'
+      type: VillagerGolem
+      spawned: true
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    name: "\xa76EggWars Shop"
+    uuid: 177e3bd1-0a4b-4044-b2f2-aeb271cb133c
+    traits:
+      location:
+        world: Natural
+        x: '349.55210424930453'
+        y: '50.0'
+        z: '-531.4706629492913'
+        yaw: '224.197998046875'
+        pitch: '0.0'
+      type: VillagerGolem
+      spawned: true
+      owner:
+        owner: Leonardo0013
+        uuid: 3ff66df4-3fa8-37ae-ae0d-dfc656a70b39
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: spawned,owner,type,location,lookclose
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

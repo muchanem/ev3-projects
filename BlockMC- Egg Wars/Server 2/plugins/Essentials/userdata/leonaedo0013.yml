@@ -1,0 +1,20 @@
+timestamps:
+  lastteleport: 1439060607164
+  login: 1439060596206
+lastlocation:
+  world: LobbyEW
+  x: 6.141972438291664
+  y: 76.0
+  z: -11.698734867065248
+  yaw: 42.150105
+  pitch: 11.699986
+socialspy: false
+uuid: ace916eb-e4f4-3d3d-828c-38760301403b
+ipAddress: 192.168.0.100
+logoutlocation:
+  world: LobbyEW
+  x: -0.5
+  y: 77.0
+  z: -7.5
+  yaw: -180.2999
+  pitch: -5.550013

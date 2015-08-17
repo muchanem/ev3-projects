@@ -1,0 +1,39 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&eGenerador de oro'
+  rows: 3
+  command: 'oro'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'oro'
+  NAME: '&eMaquina de oro'
+  LORE:
+    - '&9Intervalo de produccion: 5 segundo'
+  ID: 266
+  POSITION-X: 3
+  POSITION-Y: 2
+Espadas:
+  NAME: '&6Mejorar generador de &eOro &6- Level 2'
+  REQUIRED-ITEM: 266, 10
+  COMMAND: 'fws red; fws green'
+  LORE:
+    - '&9Intervalo de produccion: 5 segundo'
+    - ''
+    - '&3Costo: &e10 &6Oro'
+  ID: 384
+  AMOUNT: 2
+  POSITION-X: 7
+  POSITION-Y: 2

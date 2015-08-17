@@ -1,0 +1,65 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&6&lEggWars Shop'
+  rows: 1
+  open-action: 'sound: note pling'
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Bloques:
+  COMMAND: 'give: 391,1; open: EggWars-Shop-Comida.yml'
+  REQUIRED-ITEM: 265, 1
+  NAME: '&aZanahoria'
+  LORE:
+    - '&7Precio: &a1 de &8&lHierro'
+  ID: 391
+  POSITION-X: 1
+  POSITION-Y: 1
+Espadas:
+  NAME: '&aFilete'
+  LORE:
+    - '&7Precio: &a5 de &8&lHierro'
+  ID: 364
+  COMMAND: 'give: 364,1; open: EggWars-Shop-Comida.yml'
+  REQUIRED-ITEM: 265, 5
+  POSITION-X: 2
+  POSITION-Y: 1
+Armadura:
+  NAME: '&aTarta'
+  COMMAND: 'give: 354,1; open: EggWars-Shop-Comida.yml'
+  REQUIRED-ITEM: 265, 12
+  LORE:
+    - '&7Precio: &a12 de &8&lHierro'
+  ID: 354
+  POSITION-X: 3
+  POSITION-Y: 1
+Comida:
+  COMMAND: 'give: 322,1; open: EggWars-Shop-Comida.yml'
+  REQUIRED-ITEM: 266, 2
+  NAME: '&aManzana dorada'
+  LORE:
+    - '&7Precio: &a2 de &6&lOro'
+  ID: 322
+  POSITION-X: 4
+  POSITION-Y: 1
+Picos:
+  COMMAND: 'give: 322:1,1; open: EggWars-Shop-Comida.yml'
+  REQUIRED-ITEM: 264, 32
+  NAME: '&aManzana dorada'
+  LORE:
+    - '&7Precio: &a32 de &b&lDiamantes'
+  ID: 322
+  DATA-VALUE: 1
+  POSITION-X: 5
+  POSITION-Y: 1
